@@ -1,0 +1,22 @@
+/* Reset / Normalize */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+/* Grid & Layout Helpers */
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .row {
+    flex-direction: column;
+  }
+}
